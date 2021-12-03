@@ -1,0 +1,21 @@
+$color-green: #709b6b;
+$color-dgreen: #345231;
+$color-dark: #1f1f1f;
+$color-white-shade: #f6f6f6;
+$color-yellow:#e4a436;
+
+button {
+    color: #1f1f1f;
+    background: $color-yellow;
+    text-transform: uppercase;
+    height: 45px;
+    width: 135px;
+    border: 1px $color-yellow solid;
+    padding: 10px;
+}
+
+button:hover,button:focus  {
+    background-color: $color-dgreen;
+    color:$color-white-shade;
+    border: 1px $color-dgreen solid;
+}

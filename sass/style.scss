@@ -1,12 +1,12 @@
-@import './setup.scss';
-@import './header.scss';
-@import './nav.scss';
-@import './typography.scss';
-
-$yellow-light-color-green: #709b6b;
+$color-green: #709b6b;
 $color-dgreen: #345231;
 $color-dark: #1f1f1f;
 $color-white-shade: #f6f6f6;
+$color-yellow: e4a436;
+
+
+
+@import './setup.scss';
 
 
 body{
@@ -19,5 +19,16 @@ body{
     padding: 0;
     font-size: 1.8rem;
 }
+
+
+
+
+@import './header.scss';
+@import './nav.scss';
+@import './typography.scss';
+@import './button';
+
+
+
 
 

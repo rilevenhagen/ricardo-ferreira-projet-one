@@ -6,3 +6,11 @@ $color-white-shade: #f6f6f6;
 
 // $font-abril:font-family: 'Abril Fatface', cursive;
 // $font-montserrat:font-family: 'Montserrat', sans-serif;
+
+h3, h2 {
+    color:$color-white-shade
+}
+
+p{
+    color: $color-dark;
+}
