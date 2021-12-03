@@ -8,5 +8,34 @@ $color-yellow:#e4a436;
 header {
     background-color: $color-dgreen;
     width: 100%;
-    margin: 0;
+    margin: 0 0 50px 0;
+    height: 715px;
+}
+
+
+.img-logo {
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    height: 21%;
+}
+
+.logo-2{
+    font-size: 9rem;
+    text-transform: uppercase;
+    margin: 0 18px 0 auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-header {
+    margin-top: 50px;
+    box-shadow: 21px 21px $color-white-shade;
 }
