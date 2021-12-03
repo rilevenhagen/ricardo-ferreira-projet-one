@@ -1,0 +1,23 @@
+@import './setup.scss';
+@import './header.scss';
+@import './nav.scss';
+@import './typography.scss';
+
+$yellow-light-color-green: #709b6b;
+$color-dgreen: #345231;
+$color-dark: #1f1f1f;
+$color-white-shade: #f6f6f6;
+
+
+body{
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1.8rem;
+}
+
+
