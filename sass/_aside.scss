@@ -1,0 +1,105 @@
+$color-green: #709b6b;
+$color-dgreen: #345231;
+$color-dark: #1f1f1f;
+$color-white-shade: #f6f6f6;
+$color-yellow:#e4a436;
+$font-abril:  'Abril Fatface', cursive;
+$font-montserrat:'Montserrat', sans-serif;
+
+
+
+
+
+.about-willow {
+    background-color: white;
+    // width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    margin: 81px 20PX 20px;
+}
+
+
+h3 {
+    font-family: $font-abril;
+    font-size: 1,6rem;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.about-willow p{
+    margin-top: 0;
+}
+
+span {
+    color: $color-green;
+}
+
+.recent {
+    background-color: white;
+    // width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    margin: 81px 20PX 20px;
+}
+
+.recent p{
+    margin: 6px;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+
+}
+
+.my-favorite {
+    background-color: white;
+    // width: 60%;
+}
+
+.container-aside-my-favorite {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    width: 30%;
+}
+
+.my-favorite{
+width: 60%;
+margin: 81px 20PX 20px;
+padding-left: 45px;
+padding-right: 45px; 
+border-bottom: 5px solid $color-green;
+}
+
+// section barb
+
+
+.img-barb-container, .img-daisy-container{
+width: 50%;
+height: 50%;
+margin: 40px 25px auto 38px;
+}
+
+.barb, .daisy {
+    background: white;
+    width: 769px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 689px;
+}
+
+.daisy {
+    margin-top: 30px;
+    border-bottom: 5px solid $color-green;
+}
+
+.container-barb, .container-daizy{
+    display: flex;
+}
+
+
+

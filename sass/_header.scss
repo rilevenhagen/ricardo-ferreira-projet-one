@@ -10,9 +10,9 @@ $font-montserrat:  'Montserrat', sans-serif;
 header {
     background-color: $color-dgreen;
     width: 100%;
-    // margin: 0 0 50px 0;
     height: 820px;
 }
+
 
 
 .img-logo {
@@ -38,6 +38,30 @@ header {
 }
 
 .img-header {
-    margin-top: 50px;
+    margin-top: 55px;
     box-shadow: 21px 21px white;
 }
+
+// =======header og blog=====
+
+.blog-body {
+    background-color: $color-white-shade;
+}
+
+
+.header-blog {
+    height: 60vh;
+}
+
+.img-logo-blog {
+    height: 50vh;  
+    background-image: url(../assets/blog-image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+
+
+
+

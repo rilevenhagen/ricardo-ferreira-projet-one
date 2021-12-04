@@ -274,11 +274,27 @@ header {
 }
 
 .img-header {
-  margin-top: 50px;
+  margin-top: 55px;
   box-shadow: 21px 21px white;
 }
 
-.ul-container {
+.blog-body {
+  background-color: #f6f6f6;
+}
+
+.header-blog {
+  height: 60vh;
+}
+
+.img-logo-blog {
+  height: 50vh;
+  background-image: url(../assets/blog-image-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.ul-container, .ul-container-blog {
   display: flex;
   justify-content: space-around;
   width: 70%;
@@ -288,14 +304,22 @@ header {
   padding: 0;
 }
 
-li {
+.ul-container-blog {
+  height: 10vh;
+}
+
+li, .ul-container-blog li {
   list-style: none;
 }
-li a {
+li a, .ul-container-blog li a {
   color: #f6f6f6;
 }
-li a:hover {
+li a:hover, .ul-container-blog li a:hover {
   color: #e4a436;
+}
+
+html {
+  font-size: 125%;
 }
 
 h1 {
@@ -319,8 +343,9 @@ h2 {
 p {
   color: #1f1f1f;
   font-family: "Montserrat", sans-serif;
-  line-height: 33px;
-  letter-spacing: 0px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  font-size: 1rem;
 }
 
 a {
@@ -343,7 +368,19 @@ i {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  padding: 9px;
+  padding: 7px;
+}
+
+.blog-title {
+  font-family: "Abril Fatface", cursive;
+  font-size: 5rem;
+  letter-spacing: 1px;
+  line-height: 92px;
+  color: #f6f6f6;
+  display: flex;
+  align-items: end;
+  position: relative;
+  bottom: -8px;
 }
 
 button {
@@ -370,8 +407,250 @@ button:hover, button:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 540px;
 }
 
 .whos {
   background-color: #f6f6f6;
+  z-index: -3;
+  position: relative;
+}
+
+.favorite-things {
+  display: flex;
+  flex-direction: row;
+}
+
+.txt-things-comntainer, .img-things-comntainer {
+  height: 400px;
+}
+
+.img-things-comntainer p, .txt-things-comntainer h2 {
+  width: 100%;
+  margin: 30px auto;
+}
+
+.txt-things-comntainer {
+  margin-left: 750px;
+}
+
+.img-things-comntainer {
+  position: relative;
+}
+
+.img-things {
+  position: absolute;
+  top: -37px;
+}
+
+.green-box {
+  background: #709b6b;
+  width: 900px;
+  height: 400px;
+  position: absolute;
+  z-index: -1;
+  margin-left: -240px;
+  margin-top: -17px;
+}
+
+.bucket-list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 55px;
+}
+
+.img-bucket {
+  margin-left: 321px;
+  margin-top: 2%;
+  position: absolute;
+}
+
+.txt-bucket p, .txt-bucket h2 {
+  width: 50%;
+  margin: 27px -60px;
+}
+
+.txt-bucket {
+  text-align: end;
+}
+
+.box-container-bucket {
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 903px;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+}
+
+.journey {
+  background-color: #f6f6f6;
+  padding-top: 80px;
+  z-index: -2;
+  position: relative;
+  height: 525px;
+}
+
+.journey-txt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.journey-image {
+  width: 55%;
+}
+
+.journey-txt h2 {
+  margin-top: 35px;
+}
+
+.b-bucket {
+  margin-right: 700px;
+}
+
+.img-journey {
+  box-shadow: 22px 22px #709b6b;
+}
+
+.pamo-img {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #f6f6f6;
+  margin-top: 80px;
+  margin-bottom: 0;
+  padding-top: 70px;
+  height: 55vh;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo-about, .blog-contact {
+  width: 70%;
+  height: 47vh;
+}
+
+.photo-about p, .photo-about h2, .blog-contact p, .blog-contact h2 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.photo, .about, .blog, .contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+i {
+  margin-right: 15px;
+}
+
+.p-continer-footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.p-footer {
+  color: #f6f6f6;
+  margin: 0;
+}
+
+.about-willow {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  margin: 81px 20PX 20px;
+}
+
+h3 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 1, 6rem;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.about-willow p {
+  margin-top: 0;
+}
+
+span {
+  color: #709b6b;
+}
+
+.recent {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  margin: 81px 20PX 20px;
+}
+
+.recent p {
+  margin: 6px;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.my-favorite {
+  background-color: white;
+}
+
+.container-aside-my-favorite {
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  width: 30%;
+}
+
+.my-favorite {
+  width: 60%;
+  margin: 81px 20PX 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-bottom: 5px solid #709b6b;
+}
+
+.img-barb-container, .img-daisy-container {
+  width: 50%;
+  height: 50%;
+  margin: 40px 25px auto 38px;
+}
+
+.barb, .daisy {
+  background: white;
+  width: 769px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 689px;
+}
+
+.daisy {
+  margin-top: 30px;
+  border-bottom: 5px solid #709b6b;
+}
+
+.container-barb, .container-daizy {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

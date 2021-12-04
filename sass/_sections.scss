@@ -10,12 +10,187 @@ $font-montserrat:'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 540px;
 }
 
 
 .whos {
     background-color: $color-white-shade;
+    z-index: -3;
+    position: relative;
 }
 
 // section of favorite
+
+.favorite-things {
+    display: flex;
+    flex-direction: row;
+}
+
+.txt-things-comntainer, .img-things-comntainer {
+height: 400px;
+} 
+
+.img-things-comntainer p, .txt-things-comntainer h2 {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.txt-things-comntainer {
+    margin-left: 750px;
+}
+
+.img-things-comntainer {
+    position: relative;
+}
+
+.img-things {
+    position: absolute;
+    top: -37px;
+}
+
+
+.green-box {
+    background: $yellow-light-color-green;
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+    margin-left: -240px;
+    margin-top: -17px;
+}
+
+
+// section of bucket list
+
+.bucket-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+
+.img-bucket {
+    // margin-left:55px;
+    margin-left: 321px;
+    margin-top: 2%;
+    position: absolute;
+
+}
+
+.txt-bucket p, .txt-bucket h2 {
+width: 50%;
+margin: 27px -60px;
+}
+
+.txt-bucket {
+    text-align: end;
+    // margin: 27px 460px;
+}
+
+.box-container-bucket {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 903px;
+}
+
+
+// willow's journey
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.journey {
+background-color: $color-white-shade;
+padding-top: 80px;
+z-index: -2;
+position: relative;
+height: 525px;
+}
+
+.journey-txt {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.journey-image {
+     width: 55%;
+}
+
+.journey-txt h2 {
+    margin-top: 35px;
+}
+
+.b-bucket {
+    margin-right: 700px;
+}
+
+.img-journey {
+    box-shadow: 22px 22px $yellow-light-color-green;
+}
+
+
+// ===============gallery-------
+
+.pamo-img{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.image-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+// ================= footer ============
+
+footer{
+    background-color: $color-white-shade;
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding-top: 70px;
+    height: 55vh;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.photo-about, .blog-contact {
+    width: 70%;
+    height: 47vh;
+}
+
+.photo-about p, .photo-about h2, .blog-contact p, .blog-contact h2 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.photo, .about, .blog, .contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+i {
+    margin-right: 15px;
+}
+
+.p-continer-footer {
+    background-color: $color-dark;
+    text-align: center;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.p-footer {
+    color: $color-white-shade;
+    margin: 0;
+}
+
 

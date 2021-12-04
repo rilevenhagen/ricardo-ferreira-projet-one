@@ -8,18 +8,22 @@ $font-montserrat:'Montserrat', sans-serif;
 
 
 
-.ul-container {
-display: flex;
-justify-content: space-around;
-width: 70%;
-align-items: center;
-align-content: center;
-margin: 0 auto;
-padding: 0;
+.ul-container, .ul-container-blog {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    padding: 0;
 }
 
+.ul-container-blog{
+    height: 10vh
+}
+;
 
-li {
+li, .ul-container-blog li {
     list-style: none;
     
     a{
