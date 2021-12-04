@@ -3,13 +3,15 @@ $color-dgreen: #345231;
 $color-dark: #1f1f1f;
 $color-white-shade: #f6f6f6;
 $color-yellow:#e4a436;
+$font-abril:  'Abril Fatface', cursive;
+$font-montserrat:  'Montserrat', sans-serif;
 
 
 header {
     background-color: $color-dgreen;
     width: 100%;
-    margin: 0 0 50px 0;
-    height: 715px;
+    // margin: 0 0 50px 0;
+    height: 820px;
 }
 
 
@@ -26,7 +28,7 @@ header {
 }
 
 .logo-2{
-    font-size: 9rem;
+    font-size: 7.3rem;
     text-transform: uppercase;
     margin: 0 18px 0 auto;
     display: flex;
@@ -37,5 +39,5 @@ header {
 
 .img-header {
     margin-top: 50px;
-    box-shadow: 21px 21px $color-white-shade;
+    box-shadow: 21px 21px white;
 }
