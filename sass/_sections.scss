@@ -36,29 +36,69 @@ height: 400px;
     margin: 30px auto;
 }
 
-.txt-things-comntainer {
-    margin-left: 750px;
+.txt-things-comntainer p, .txt-things-comntainer h2 {
+width: 88%;
+margin: 27px 22px;
+}
+
+.txt-things-comntainer button{
+    margin-left: 22px;
 }
 
 .img-things-comntainer {
+    background-color: $yellow-light-color-green;
+    width: 955px;
+    height: 400px;
     position: relative;
+    left: -289px;
+    bottom: 30px;
+}
+
+.green-box1{
+position: relative;
+width: 54%;
 }
 
 .img-things {
-    position: absolute;
-    top: -37px;
+    left: 289px;
+    position: relative;
+    bottom: 21px;
 }
 
 
-.green-box {
-    background: $yellow-light-color-green;
-    width: 900px;
-    height: 400px;
-    position: absolute;
-    z-index: -1;
-    margin-left: -240px;
-    margin-top: -17px;
-}
+// .txt-things-comntainer {
+//     margin-left: 750px;
+// }
+
+// .img-things-comntainer {
+//     position: relative;
+// }
+
+// .img-things {
+//     position: absolute;
+//     top: -37px;
+// }
+
+
+// .green-box {
+//     background: #709b6b;
+//     width: 999px;
+//     height: 400px;
+//     position: absolute;
+//     z-index: -1;
+//     margin-left: -338px;
+//     margin-top: -17px;
+// }
+
+// .green-box-bucket {
+//     background: #709b6b;
+//     width: 979px;
+//     height: 400px;
+//     position: absolute;
+//     z-index: -1;
+//     margin-left: -282px;
+//     margin-top: -17px;
+//     }
 
 
 // section of bucket list
@@ -69,30 +109,48 @@ height: 400px;
     margin-top: 55px;
 }
 
-.img-bucket {
-    // margin-left:55px;
-    margin-left: 321px;
-    margin-top: 2%;
-    position: absolute;
-
+.green-box2{
+position: relative;
+width: 54%;
 }
 
+.img-bucket {
+left: 20px;
+position: relative;
+bottom: 17px;
+}
+
+
+.img-bucket-container {
+    background-color: $color-dgreen;
+    width: 949px;
+    height: 400px;
+    position: relative;
+    top: 88px;
+    left: 31px;
+}
+
+
 .txt-bucket p, .txt-bucket h2 {
-width: 50%;
-margin: 27px -60px;
+width: 90%;
+margin: 27px 1px;
 }
 
 .txt-bucket {
     text-align: end;
+    width: 50%;
     // margin: 27px 460px;
 }
 
 .box-container-bucket {
     position: absolute;
     margin-top: 4%;
-    margin-left: 903px;
+    // margin-left: 903px;
 }
 
+.b-bucket {
+    margin-right: 56px;;
+}
 
 // willow's journey
 
@@ -124,9 +182,6 @@ height: 525px;
     margin-top: 35px;
 }
 
-.b-bucket {
-    margin-right: 700px;
-}
 
 .img-journey {
     box-shadow: 22px 22px $yellow-light-color-green;

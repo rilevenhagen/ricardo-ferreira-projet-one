@@ -20,8 +20,21 @@ button {
     margin-bottom: 55px;
 }
 
-button:hover,button:focus  {
+button:hover, button:focus {
     background-color: $color-dgreen;
     color:$color-white-shade;
     border: 1px $color-dgreen solid;
+}
+
+.fa-facebook-f:hover, 
+.fa-twitter:hover, 
+.fa-linkedin-in:hover, 
+.fa-instagram:hover, 
+span:hover, 
+.fa-facebook-f:focus, 
+.fa-twitter:focus, 
+.fa-linkedin-in:focus, 
+.fa-instagram:focus, 
+span:focus {
+    color: $color-yellow;
 }

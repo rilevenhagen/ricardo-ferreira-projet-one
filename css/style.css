@@ -356,7 +356,7 @@ p {
   color: #1f1f1f;
   font-family: "Montserrat", sans-serif;
   line-height: 32px;
-  letter-spacing: 1px;
+  letter-spacing: 0.7px;
   font-size: 1rem;
 }
 
@@ -377,10 +377,10 @@ i {
 .fas {
   color: #1f1f1f;
   background: #e4a436;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
-  padding: 7px;
+  padding: 13px;
 }
 
 .blog-title {
@@ -393,6 +393,17 @@ i {
   align-items: end;
   position: relative;
   bottom: -8px;
+}
+
+.contact a, .blog-contact a, .about a, .photo-about a {
+  font-size: 1.5rem;
+  font-family: "Abril Fatface", cursive;
+  color: #1f1f1f;
+  text-transform: uppercase;
+}
+
+.contact a:hover, .blog-contact a:hover, .about a:hover, .photo-about a:hover {
+  color: #709b6b;
 }
 
 button {
@@ -413,6 +424,19 @@ button:hover, button:focus {
   background-color: #345231;
   color: #f6f6f6;
   border: 1px #345231 solid;
+}
+
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-linkedin-in:hover,
+.fa-instagram:hover,
+span:hover,
+.fa-facebook-f:focus,
+.fa-twitter:focus,
+.fa-linkedin-in:focus,
+.fa-instagram:focus,
+span:focus {
+  color: #e4a436;
 }
 
 .who {
@@ -442,27 +466,33 @@ button:hover, button:focus {
   margin: 30px auto;
 }
 
-.txt-things-comntainer {
-  margin-left: 750px;
+.txt-things-comntainer p, .txt-things-comntainer h2 {
+  width: 88%;
+  margin: 27px 22px;
+}
+
+.txt-things-comntainer button {
+  margin-left: 22px;
 }
 
 .img-things-comntainer {
+  background-color: #709b6b;
+  width: 955px;
+  height: 400px;
   position: relative;
+  left: -289px;
+  bottom: 30px;
+}
+
+.green-box1 {
+  position: relative;
+  width: 54%;
 }
 
 .img-things {
-  position: absolute;
-  top: -37px;
-}
-
-.green-box {
-  background: #709b6b;
-  width: 900px;
-  height: 400px;
-  position: absolute;
-  z-index: -1;
-  margin-left: -240px;
-  margin-top: -17px;
+  left: 289px;
+  position: relative;
+  bottom: 21px;
 }
 
 .bucket-list {
@@ -471,25 +501,43 @@ button:hover, button:focus {
   margin-top: 55px;
 }
 
+.green-box2 {
+  position: relative;
+  width: 54%;
+}
+
 .img-bucket {
-  margin-left: 321px;
-  margin-top: 2%;
-  position: absolute;
+  left: 20px;
+  position: relative;
+  bottom: 17px;
+}
+
+.img-bucket-container {
+  background-color: #345231;
+  width: 949px;
+  height: 400px;
+  position: relative;
+  top: 88px;
+  left: 31px;
 }
 
 .txt-bucket p, .txt-bucket h2 {
-  width: 50%;
-  margin: 27px -60px;
+  width: 90%;
+  margin: 27px 1px;
 }
 
 .txt-bucket {
   text-align: end;
+  width: 50%;
 }
 
 .box-container-bucket {
   position: absolute;
   margin-top: 4%;
-  margin-left: 903px;
+}
+
+.b-bucket {
+  margin-right: 56px;
 }
 
 .content-container {
@@ -517,10 +565,6 @@ button:hover, button:focus {
 
 .journey-txt h2 {
   margin-top: 35px;
-}
-
-.b-bucket {
-  margin-right: 700px;
 }
 
 .img-journey {
@@ -762,4 +806,428 @@ textarea {
   display: flex;
   flex-direction: column;
   margin: 0;
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+  .wrapper {
+    max-width: 941px;
+    width: 95%;
+  }
+
+  .img-header {
+    display: none;
+  }
+
+  .ul-container, .ul-container-blog {
+    width: 88%;
+  }
+
+  .logo-2 {
+    margin: 0 auto;
+    font-size: 6rem;
+  }
+
+  .logo {
+    top: 2%;
+    left: 16%;
+    height: 87%;
+  }
+
+  header {
+    width: 100%;
+    height: 320px;
+  }
+
+  .img-logo-contact, .img-logo-blog {
+    height: 29vh;
+  }
+
+  .header-blog {
+    height: 39vh;
+  }
+
+  .img-things {
+    left: 82px;
+    margin-top: 50px;
+  }
+
+  .txt-things-comntainer p, .txt-things-comntainer h2 {
+    width: 90%;
+    margin: 27px 22px;
+    text-align: center;
+  }
+
+  .txt-things-comntainer, .img-things-comntainer {
+    height: 375px;
+    text-align: center;
+  }
+
+  .txt-things-comntainer button {
+    margin-left: 0;
+  }
+
+  txt-bucket p, .txt-bucket h2 {
+    width: 93%;
+  }
+
+  .txt-bucket {
+    text-align: center;
+  }
+
+  .img-things-comntainer {
+    background-color: white;
+    width: 640px;
+    position: unset;
+  }
+
+  .green-box1 {
+    width: 0;
+    height: 465px;
+  }
+
+  .favorite-things {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .bucket-list {
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
+
+  .img-bucket {
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+  }
+
+  .img-bucket-container {
+    background-color: #ffffff;
+    width: 639px;
+    height: 300px;
+    margin-bottom: 100px;
+  }
+
+  .green-box2 {
+    position: unset;
+    margin-top: -90px;
+  }
+
+  .img-bucket-container {
+    top: 105px;
+    left: 31px;
+  }
+
+  .txt-bucket {
+    text-align: start;
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .journey-txt {
+    margin-top: -42px;
+  }
+
+  .journey {
+    height: 555px;
+  }
+
+  .image-gallery img {
+    width: 32%;
+  }
+
+  ter {
+    margin-top: -30px;
+  }
+
+  .photo-about p, .photo-about h2, .blog-contact p, .blog-contact h2 {
+    margin-top: -11px;
+    margin-left: 5px;
+    width: 98%;
+  }
+
+  p {
+    line-height: 27px;
+  }
+
+  .p-continer-footer {
+    margin-bottom: 0;
+  }
+
+  .form-and-social-midia {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .social-media-contact {
+    margin-top: 16px;
+    height: 193px;
+    display: flex;
+    justify-content: space-around;
+    width: 86%;
+    margin-right: 0;
+  }
+
+  .fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-instagram {
+    margin-top: 35px;
+  }
+
+  .address1 {
+    margin-top: -50px;
+  }
+
+  .container-aside-my-favorite {
+    flex-direction: column;
+  }
+
+  [id=about] {
+    flex-direction: column;
+    display: flex;
+    width: 95%;
+  }
+
+  .my-favorite {
+    width: 95%;
+  }
+
+  .recent {
+    margin: 47px 20PX 20px;
+    width: 95%;
+    text-align: center;
+  }
+
+  form {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .container-daizy, .container-barb {
+    width: 95%;
+  }
+
+  .barb, .daisy {
+    right: 3%;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 770px;
+    width: 95%;
+  }
+
+  .logo {
+    left: 9%;
+  }
+
+  .ul-container, .ul-container-blog {
+    width: 95%;
+  }
+
+  .img-things {
+    left: 50px;
+  }
+
+  .img-bucket {
+    left: 15px;
+  }
+
+  [type=email] {
+    height: 70px;
+    width: 100%;
+    margin: 5px 5px 35px 0;
+  }
+
+  [type=text] {
+    height: 70px;
+    width: 100%;
+    margin: 48px 5px 35px 0;
+  }
+
+  .social-media-contact {
+    width: 67%;
+    height: 215px;
+  }
+
+  .fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-instagram {
+    margin-top: 25px;
+    margin-right: 36px;
+  }
+
+  [type=email], [type=text] {
+    width: 100%;
+  }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .wrapper {
+    max-width: 490px;
+    width: 95%;
+  }
+
+  .logo-2 {
+    font-size: 4.3rem;
+    margin-top: 23px;
+  }
+
+  .logo {
+    left: 2%;
+    top: 18%;
+  }
+
+  h1 {
+    margin-top: 3px;
+    top: -40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .ul-container, .ul-container-blog {
+    position: relative;
+    margin: 72px auto 0 auto;
+  }
+
+  header {
+    height: 242px;
+    position: absolute;
+  }
+
+  .whos {
+    top: 155px;
+  }
+
+  .who {
+    height: 610px;
+  }
+
+  .favorite-things {
+    margin-top: 183px;
+  }
+
+  .img-things {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+  }
+
+  .img-things-comntainer {
+    width: 470px;
+    left: -8px;
+    bottom: 128px;
+    z-index: -10;
+  }
+
+  .img-bucket-container {
+    width: 470px;
+    left: -8px;
+    bottom: 128px;
+    height: 70px;
+  }
+
+  .img-bucket {
+    text-align: center;
+    position: relative;
+    top: -171px;
+    left: 1px;
+    bottom: 70px;
+    width: 469px;
+  }
+
+  .txt-bucket p, .txt-bucket h2 {
+    margin: 27px auto;
+  }
+
+  .b-bucket {
+    margin-right: 0;
+  }
+
+  .txt-bucket {
+    text-align: center;
+  }
+
+  .txt-things-comntainer, .img-things-comntainer {
+    height: 452px;
+    text-align: center;
+    position: relative;
+    top: -118px;
+  }
+
+  .form-contact {
+    margin: 350px auto auto;
+  }
+
+  .social-media-contact {
+    width: 71%;
+    height: 235px;
+  }
+
+  .social {
+    text-align: start;
+    font-size: 1.2rem;
+    position: relative;
+    top: -41px;
+  }
+
+  .img-logo-contact, .img-logo-blog {
+    height: 21vh;
+  }
+
+  .about-willow {
+    margin: 390px 20PX 20px;
+  }
+
+  .blog-title {
+    font-size: 4rem;
+    bottom: -15px;
+  }
+
+  .blog-title {
+    font-size: 3rem;
+    bottom: -23px;
+  }
+
+  .img-journey {
+    box-shadow: none;
+    margin-bottom: 20px;
+  }
+
+  .journey {
+    height: 825px;
+  }
+
+  .content-container {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .journey-txt {
+    align-items: center;
+  }
+
+  .photo-about, .blog-contact {
+    width: 60%;
+    height: 176px;
+    margin-top: -20px;
+  }
+
+  .photo-about h3, .blog-contact h3 {
+    font-size: 1rem;
+  }
+
+  footer {
+    height: 51vh;
+  }
+
+  .photo-about p, .blog-contact p {
+    display: none;
+  }
+
+  .container-footer {
+    flex-direction: column;
+    height: 373px;
+    align-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */
