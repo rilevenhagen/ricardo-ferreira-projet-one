@@ -23,7 +23,7 @@
             <nav>
                 <ul class="ul-container-blog">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="blog.html#about">About</a></li>
                     <li>
                         <h1>WILLOW</h1>
                     </li>
@@ -39,7 +39,7 @@
 
     <main>
         <div class="wrapper container-aside-my-favorite">
-            <aside>
+            <aside id="about">
                 <div class="about-willow">
                     <img src="./assets/blog-image-2.jpg" alt="a portrait of Willow behind a glance in a yellow jacket ">
                     <h3 class="h2-about">About willow</h3>
@@ -91,7 +91,7 @@
         <section class="wrapper barb">
             <div class="container-barb">
                 <div class="img-barb-container">
-                <img class="barb-img" src="./assets/blog-image-3.jpg" alt="">                    
+                    <img class="barb-img" src="./assets/blog-image-3.jpg" alt="">
                 </div>
                 <div class="p-bard">
                     <p>Tusday Octuber 9th, 2018 by Barb</p>
@@ -101,25 +101,37 @@
                 </div>
             </div>
         </section>
-        <section class=" wrapper daisy">
+        <section class="wrapper daisy">
             <div class="container-daizy">
                 <div class="img-daisy-container">
-            <img class="daizy-img" src="./assets/blog-image-4.jpg" alt="">                    
+                    <img class="daizy-img" src="./assets/blog-image-4.jpg" alt="">
                 </div>
 
-            <div class="p-daisy">
-                <p>Wednesday Octuber 10th, 2018 by Daisy</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil animi eveniet sed velit, quisquam
-                    accusantium aliquam, maiores temporibus ipsam quo.</p>
-            </div>                
+                <div class="p-daisy">
+                    <p>Wednesday Octuber 10th, 2018 by Daisy</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil animi eveniet sed velit, quisquam
+                        accusantium aliquam, maiores temporibus ipsam quo.</p>
+                </div>
             </div>
         </section>
-        <section>
-            <form action=""></form>
+
+        <section class="wrapper">
+            <form action="https://formsubmit.co/ricolcf@gmail.com" method="POST">
+
+                <div class="email-mane">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email addres" required>
+                </div>
+                <div class="textarea-buttom">
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Coment"></textarea>
+                    <button class="form-b" type="submit">Send</button>
+                </div>
+
+            </form>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer-blog">
         <dir class="p-continer-footer">
             <p class="p-footer">Copyright © 2018 HackerYou</p>
         </dir>

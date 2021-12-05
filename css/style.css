@@ -294,6 +294,18 @@ header {
   display: flex;
 }
 
+.contact-body {
+  background-color: #f6f6f6;
+}
+
+.img-logo-contact {
+  height: 50vh;
+  background-image: url(../assets/contact-image-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
 .ul-container, .ul-container-blog {
   display: flex;
   justify-content: space-around;
@@ -334,7 +346,7 @@ h1 {
 h2 {
   font-family: "Abril Fatface", cursive;
   color: #1f1f1f;
-  font-size: 2.625rem;
+  font-size: 2rem;
   text-transform: uppercase;
   margin-top: 150px;
   margin-bottom: 10px;
@@ -572,6 +584,51 @@ i {
   margin: 0;
 }
 
+.footer-blog {
+  height: 0;
+  margin-top: 0;
+}
+
+.footer-contact {
+  height: 0;
+  margin-top: 0;
+}
+
+.form-and-social-midia {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media-contact {
+  margin-top: 46px;
+  background: white;
+  width: 27%;
+  padding: 47px;
+  margin-right: auto;
+  height: 315px;
+}
+
+.social {
+  color: #345231;
+}
+
+.email {
+  font-weight: bold;
+}
+
+.address {
+  margin: 0;
+}
+
+.social {
+  text-align: start;
+  font-size: 1.4rem;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-instagram {
+  margin-right: 25px;
+}
+
 .about-willow {
   background-color: white;
   display: flex;
@@ -639,18 +696,70 @@ aside {
 }
 
 .barb, .daisy {
-  background: white;
-  width: 769px;
   display: flex;
   flex-direction: row;
-  margin-left: 689px;
+  justify-content: end;
+  position: relative;
+  right: 6%;
 }
 
 .daisy {
   margin-top: 30px;
+}
+
+.container-barb {
+  display: flex;
+  background: white;
+  width: 60%;
+}
+
+.container-daizy {
+  display: flex;
+  background: white;
+  width: 60%;
   border-bottom: 5px solid #709b6b;
 }
 
-.container-barb, .container-daizy {
+form {
+  width: 769px;
   display: flex;
+  flex-direction: column;
+  margin-left: 405px;
+}
+
+.textarea-buttom {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: 100%;
+  height: 70%;
+  resize: none;
+}
+
+.form-b {
+  width: 100%;
+}
+
+[type=email], [type=text] {
+  height: 70px;
+  width: 49%;
+  margin: 45px 5px 35px 0;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+[id=comment] {
+  padding: 30px;
+}
+
+.form-b {
+  margin-top: 30px;
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

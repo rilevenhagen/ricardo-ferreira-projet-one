@@ -193,4 +193,53 @@ i {
     margin: 0;
 }
 
+// footer blog
 
+.footer-blog {
+    height: 0;
+    margin-top: 0;
+}
+
+
+// footer contact
+.footer-contact {
+    height: 0;
+    margin-top: 0;
+}
+
+//social-midia-cottact
+
+.form-and-social-midia {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.social-media-contact {
+    margin-top: 46px;
+    background: white;
+    width: 27%;
+    padding: 47px;
+    margin-right: auto;
+    height: 315px;
+}
+
+.social {
+    color: $color-dgreen;
+}
+
+.email {
+    font-weight: bold;
+}
+.address {
+    margin: 0;
+}
+
+.social {
+    text-align: start;
+    font-size: 1.4rem;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-instagram {
+    margin-right: 25px;
+}

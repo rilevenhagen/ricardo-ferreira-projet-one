@@ -62,6 +62,17 @@ header {
 }
 
 
+// contact
 
+.contact-body {
+    background-color: $color-white-shade;
+}
 
+.img-logo-contact {
+    height: 50vh;  
+    background-image: url(../assets/contact-image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
 

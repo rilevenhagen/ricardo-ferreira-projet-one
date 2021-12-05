@@ -7,32 +7,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/1de2a11120.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li class="a">Home</li>
-                <li class="a">About</li>
-                <h3>WILLOW</h3>
-                <li class="a">Blog</li>
-                <li class="a">Contact</li>
-            </ul>
-        </nav>
-        <section>
-            <img src="" alt="parte of the logo">
-            <h2>Willow</h2>
-            <img src="" alt="">
+<body class="contact-body">
+    <header id="header" class="header-blog">
+
+        <div class="wrapper nav">
+            <nav>
+                <ul class="ul-container-blog">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html#about">About</a></li>
+                    <li>
+                        <h1>WILLOW</h1>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="img-logo-contact">
+            <h2 class="wrapper blog-title">Contact</h2>
         </section>
     </header>
 
+    <section class="wrapper form-and-social-midia">
 
-    <footer>
-        <dir>
-            <p>Copyright © 2018 HackerYou</p>
+        <div class="social-media-contact">
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="address" >
+                <p class="email" >info@email.com</p>
+                <p class="address" >123 - 456 - 7890</p>
+                <p class="address" >123 Queen Street West, Unit 10</p>
+                <p class="address" >Toronto, Ontario</p>
+                <p class="address" >M5V2D5</p>
+            </div>
+
+        </div>
+
+        <div class="form">
+            <form class="form-contact" action="https://formsubmit.co/ricolcf@gmail.com" method="POST">
+
+                <div class="email-mane">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email addres" required>
+                </div>
+                <div class="textarea-buttom">
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Coment"></textarea>
+                    <button class="form-b" type="submit">Send</button>
+                </div>
+
+            </form>
+        </div>
+
+
+
+
+
+    </section>
+
+    <footer class="footer-contact">
+        <dir class="p-continer-footer">
+            <p class="p-footer">Copyright © 2018 HackerYou</p>
         </dir>
-    </footer>
 </body>
 
 </html>
