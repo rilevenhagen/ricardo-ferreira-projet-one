@@ -1,0 +1,42 @@
+$yellow-light-color-green: #709b6b;
+$color-dgreen: #345231;
+$color-dark: #1f1f1f;
+$color-white-shade: #f6f6f6;
+$color-yellow:#e4a436;
+$font-abril:  'Abril Fatface', cursive;
+$font-montserrat:  'Montserrat', sans-serif;
+
+
+// willow's journey
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.journey {
+background-color: $color-white-shade;
+padding-top: 80px;
+padding-bottom: 50px;
+}
+
+.journey-txt {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.journey-image {
+    width: 55%;
+}
+
+.journey-txt h2 {
+    margin-top: 35px;
+}
+
+
+.img-journey {
+    box-shadow: 22px 22px $yellow-light-color-green;
+}
+

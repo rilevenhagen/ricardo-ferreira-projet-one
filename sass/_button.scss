@@ -6,6 +6,7 @@ $color-yellow:#e4a436;
 $font-abril:  'Abril Fatface', cursive;
 $font-montserrat:'Montserrat', sans-serif;
 
+
 button {
     color: #1f1f1f;
     background: $color-yellow;
@@ -20,21 +21,15 @@ button {
     margin-bottom: 55px;
 }
 
-button:hover, button:focus {
+button:hover, button:focus, .whos-willow .who .find:hover, .find:focus, .b-jorney:hover, .b-jorney:focus {
     background-color: $color-dgreen;
     color:$color-white-shade;
     border: 1px $color-dgreen solid;
 }
 
-.fa-facebook-f:hover, 
-.fa-twitter:hover, 
-.fa-linkedin-in:hover, 
-.fa-instagram:hover, 
-span:hover, 
-.fa-facebook-f:focus, 
-.fa-twitter:focus, 
-.fa-linkedin-in:focus, 
-.fa-instagram:focus, 
-span:focus {
+
+.social-media-contact .social a .fab:hover, .social-media-contact .social a .fab:hover:focus   {
+    text-align: start;
+    font-size: 1.4rem;
     color: $color-yellow;
 }

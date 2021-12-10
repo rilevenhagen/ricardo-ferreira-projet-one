@@ -6,191 +6,10 @@ $color-yellow:#e4a436;
 $font-abril:  'Abril Fatface', cursive;
 $font-montserrat:'Montserrat', sans-serif;
 
-.who {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 540px;
-}
-
-
-.whos {
-    background-color: $color-white-shade;
-    z-index: -3;
-    position: relative;
-}
-
-// section of favorite
-
-.favorite-things {
-    display: flex;
-    flex-direction: row;
-}
-
-.txt-things-comntainer, .img-things-comntainer {
-height: 400px;
-} 
-
-.img-things-comntainer p, .txt-things-comntainer h2 {
-    width: 100%;
-    margin: 30px auto;
-}
-
-.txt-things-comntainer p, .txt-things-comntainer h2 {
-width: 88%;
-margin: 27px 22px;
-}
-
-.txt-things-comntainer button{
-    margin-left: 22px;
-}
-
-.img-things-comntainer {
-    background-color: $yellow-light-color-green;
-    width: 955px;
-    height: 400px;
-    position: relative;
-    left: -289px;
-    bottom: 30px;
-}
-
-.green-box1{
-position: relative;
-width: 54%;
-}
-
-.img-things {
-    left: 289px;
-    position: relative;
-    bottom: 21px;
-}
-
-
-// .txt-things-comntainer {
-//     margin-left: 750px;
-// }
-
-// .img-things-comntainer {
-//     position: relative;
-// }
-
-// .img-things {
-//     position: absolute;
-//     top: -37px;
-// }
-
-
-// .green-box {
-//     background: #709b6b;
-//     width: 999px;
-//     height: 400px;
-//     position: absolute;
-//     z-index: -1;
-//     margin-left: -338px;
-//     margin-top: -17px;
-// }
-
-// .green-box-bucket {
-//     background: #709b6b;
-//     width: 979px;
-//     height: 400px;
-//     position: absolute;
-//     z-index: -1;
-//     margin-left: -282px;
-//     margin-top: -17px;
-//     }
-
-
-// section of bucket list
-
-.bucket-list {
-    display: flex;
-    flex-direction: row;
-    margin-top: 55px;
-}
-
-.green-box2{
-position: relative;
-width: 54%;
-}
-
-.img-bucket {
-left: 20px;
-position: relative;
-bottom: 17px;
-}
-
-
-.img-bucket-container {
-    background-color: $color-dgreen;
-    width: 949px;
-    height: 400px;
-    position: relative;
-    top: 88px;
-    left: 31px;
-}
-
-
-.txt-bucket p, .txt-bucket h2 {
-width: 90%;
-margin: 27px 1px;
-}
-
-.txt-bucket {
-    text-align: end;
-    width: 50%;
-    // margin: 27px 460px;
-}
-
-.box-container-bucket {
-    position: absolute;
-    margin-top: 4%;
-    // margin-left: 903px;
-}
-
-.b-bucket {
-    margin-right: 56px;;
-}
-
-// willow's journey
-
-.content-container {
-    display: flex;
-    align-items: center;
-}
-
-
-.journey {
-background-color: $color-white-shade;
-padding-top: 80px;
-z-index: -2;
-position: relative;
-height: 525px;
-}
-
-.journey-txt {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.journey-image {
-     width: 55%;
-}
-
-.journey-txt h2 {
-    margin-top: 35px;
-}
-
-
-.img-journey {
-    box-shadow: 22px 22px $yellow-light-color-green;
-}
-
 
 // ===============gallery-------
 
-.pamo-img{
+.pano-img{
     width: 100%;
     margin-bottom: 80px;
 }
@@ -200,69 +19,12 @@ height: 525px;
     justify-content: space-between;
 }
 
-// ================= footer ============
-
-footer{
-    background-color: $color-white-shade;
-    margin-top: 80px;
-    margin-bottom: 0;
-    padding-top: 70px;
-    height: 55vh;
+.img-gallery-1, .img-gallery-2, .img-gallery-3{
+    width: 100%;
+    padding: 10px;
 }
 
-.container-footer {
-    display: flex;
-    flex-direction: row;
-}
-
-.photo-about, .blog-contact {
-    width: 70%;
-    height: 47vh;
-}
-
-.photo-about p, .photo-about h2, .blog-contact p, .blog-contact h2 {
-    margin-top: 20px;
-    margin-left: 10px;
-}
-
-.photo, .about, .blog, .contact {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-i {
-    margin-right: 15px;
-}
-
-.p-continer-footer {
-    background-color: $color-dark;
-    text-align: center;
-    height: 35px;
-    margin: 0;
-    padding: 0;
-}
-
-.p-footer {
-    color: $color-white-shade;
-    margin: 0;
-}
-
-// footer blog
-
-.footer-blog {
-    height: 0;
-    margin-top: 0;
-}
-
-
-// footer contact
-.footer-contact {
-    height: 0;
-    margin-top: 0;
-}
-
-//social-midia-cottact
+//social-media-contact
 
 .form-and-social-midia {
     display: flex;
@@ -271,17 +33,25 @@ i {
 
 
 .social-media-contact {
-    margin-top: 46px;
+    margin-top: 47px;
     background: white;
-    width: 27%;
-    padding: 47px;
+    width: 24%;
+    padding: 29px;
     margin-right: auto;
-    height: 315px;
+    height: 340px;
 }
 
-.social {
-    color: $color-dgreen;
-}
+.social-media-contact{
+    .social{
+        a{
+            .fab{
+                    text-align: start;
+                    font-size: 1.4rem;
+                    color: $color-dgreen;
+            }
+        }
+    }
+} 
 
 .email {
     font-weight: bold;
@@ -290,11 +60,7 @@ i {
     margin: 0;
 }
 
-.social {
-    text-align: start;
-    font-size: 1.4rem;
-}
 
 .fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-instagram {
-    margin-right: 25px;
+    margin-right: 20px;
 }

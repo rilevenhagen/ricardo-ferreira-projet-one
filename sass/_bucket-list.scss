@@ -1,0 +1,48 @@
+$yellow-light-color-green: #709b6b;
+$color-dgreen: #345231;
+$color-dark: #1f1f1f;
+$color-white-shade: #f6f6f6;
+$color-yellow:#e4a436;
+$font-abril:  'Abril Fatface', cursive;
+$font-montserrat:'Montserrat', sans-serif;
+
+// section of bucket list
+
+.bucket-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container-bucket {
+    background-color: $yellow-light-color-green;
+    width: 50%;
+    transform: translate(0, 43px)
+}
+
+.img-bucket-container{
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.bucket{
+    max-width: 640px;
+    margin-right: auto;
+}
+
+
+.txt-buket-container-1{
+    width: 50%;
+    text-align: end;    
+}
+
+.txt-bucket-container{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.img-bucket {
+    width: 100%;
+    margin-left: -20px;
+    padding-bottom: 17px;
+}

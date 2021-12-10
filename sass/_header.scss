@@ -10,35 +10,42 @@ $font-montserrat:  'Montserrat', sans-serif;
 header {
     background-color: $color-dgreen;
     width: 100%;
-    height: 820px;
 }
 
 
-
-.img-logo {
+.logo-container {
     display: flex;
-    position: relative;
-}
-
-.logo {
-    position: absolute;
-    top: 35%;
-    left: 5%;
-    height: 21%;
-}
-
-.logo-2{
-    font-size: 7.3rem;
-    text-transform: uppercase;
-    margin: 0 18px 0 auto;
-    display: flex;
-    align-content: center;
-    align-items: center;
     justify-content: center;
 }
 
+.circle, 
+.logo-2-container, 
+.header-img-container{
+    width: 50%;
+}
+
+.logo-2-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-34px,0);
+}
+
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transform: translate(69px,0);
+}
+
+
+.header-img-container {
+    width: 100%;
+    margin-bottom: -50px;
+}
+
 .img-header {
-    margin-top: 55px;
     box-shadow: 21px 21px white;
 }
 

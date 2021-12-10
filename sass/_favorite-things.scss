@@ -1,0 +1,52 @@
+$yellow-light-color-green: #709b6b;
+$color-dgreen: #345231;
+$color-dark: #1f1f1f;
+$color-white-shade: #f6f6f6;
+$color-yellow:#e4a436;
+$font-abril:  'Abril Fatface', cursive;
+$font-montserrat:'Montserrat', sans-serif;
+
+
+// section of favorite
+
+.favorite-things{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container {
+    background-color: $yellow-light-color-green;
+    width: 50%;
+    transform: translate(0,-23px);
+    margin-bottom: 24px;
+}
+
+.img-favotrite{
+    max-width: 640px;
+    margin-left: auto;
+}
+
+.img-things-container{
+    margin-right: 25px;
+    transform: translate(0,-23px);
+    margin-left: 24px;
+}
+
+.img-things {
+    width: 95%;
+}
+.bigger-box {
+    width: 50%;
+}
+
+.txt-things-container{
+    max-width: 640px;
+    margin-right: auto;
+    margin-left: 100px;
+}
+
+
+
+.img-things{
+    width: 100%;
+}

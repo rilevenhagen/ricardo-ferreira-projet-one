@@ -1,0 +1,76 @@
+
+$yellow-light-color-green: #709b6b;
+$color-dgreen: #345231;
+$color-dark: #1f1f1f;
+$color-white-shade: #f6f6f6;
+$color-yellow:#e4a436;
+$font-abril:  'Abril Fatface', cursive;
+$font-montserrat:'Montserrat', sans-serif;
+
+
+
+
+
+// ================= footer ============
+
+footer{
+    background-color: $color-white-shade;
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding-top: 70px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 55px;
+}
+
+.photo-about, .blog-contact {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.photo-about p, .photo-about h2, .blog-contact p, .blog-contact h2 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.photo, .about, .blog, .contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+i {
+    margin-right: 15px;
+}
+
+.p-continer-footer {
+    background-color: $color-dark;
+    text-align: center;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.p-footer {
+    color: $color-white-shade;
+    margin: 0;
+}
+
+// footer blog
+
+.footer-blog {
+    height: 0;
+    margin-top: 0;
+}
+
+
+// footer contact
+.footer-contact {
+    height: 0;
+    margin-top: 0;
+}

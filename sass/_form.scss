@@ -13,9 +13,11 @@ form {
     flex-direction: column;
     margin-left: 405px;
 }
-.textarea-buttom{
+.textarea-button{
     display: flex;
     flex-direction: column;
+    width: 60%;
+    margin: 0 93px auto auto;
 }
 textarea {
     width: 100%;
@@ -28,17 +30,25 @@ textarea {
 
 [type="email"], [type="text"] {
     height: 70px;
-    width: 49%;
+    width: 50%;
     margin: 45px 5px 35px 0;
-    padding: 10px;
     padding-left: 30px;
 }
 
+.form-container{
+    display: flex;
+}
 
 [id="comment"]{
     padding: 30px;
 }
 
+.email-name{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 0 93px auto auto;
+}
 
 .form-b{
     margin-top: 30px;
@@ -50,4 +60,8 @@ textarea {
     display: flex;
     flex-direction: column;
     margin: 0;
+}
+.email-mane-contact{
+    width: 100%;
+    display: flex;
 }
