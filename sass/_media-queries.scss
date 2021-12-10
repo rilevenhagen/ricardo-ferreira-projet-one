@@ -2,7 +2,7 @@
 @media (max-width: 1394px) {
 
 .wrapper {
-    max-width: 1080px;
+    max-width: 1091px;
     width: 95%;
 }
 
@@ -18,43 +18,47 @@
 }
 
 
-// contact
+//contact
+
+
+.social-media-contact {
+    padding: 22px;
+    // margin-right: 35px;
+    height: 340px;
+    background: white;
+    margin: 47px 20px auto 0;
+}
 
 .form-and-social-midia {
-    display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    width: 92%;
+    margin: 0 auto;
 }
-.social-media-contact {
-    margin-right: auto;
-    height: auto;
-    display: flex;
-    flex-direction: revert;
-    width: 100%;
-    justify-content: center;
-}
+
 
 .form-contact {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    margin-right: 46px;
+    width: 735px;
 }
 
 .social{
     align-items: center;
-    align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     align-content: center;
     justify-content: center;
-    margin: 10px 10px;
+    // margin: 10px 10px;
     }
 
 .fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-instagram {
     margin-right: 29px;
     margin-top: 14px;
 }
-
 }
+
 
 @media (max-width: 1245px) {
 
@@ -92,9 +96,66 @@ transform: translate(-8px, 0);
     max-width: 414px;
 }
 
+.social {
+    display: flex;
+}
+
+.form-contact {
+    margin-right: 46px;
+}
+
+.form-contact {
+    width: 710px;
+}
+
+.container-aside-my-favorite {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-willow {
+    flex-direction: column;
+    padding: 40px;
+    margin: 40px auto;
+    width: 100%;
+    text-align: center;
+}
+
+aside {
+    width: 100%;
+    text-align: center;
+}
+
+.b-blog {
+    margin: 0 auto;
+}
+
+.my-favorite {
+    width: 96%;
+    margin: 0 auto 30px;
+}
+
+.container-barb, .container-daizy {
+    display: flex;
+    width: 96%;
+    transform: none;
+    margin: 0 auto;
+
+}
+
+.barb, .daisy {
+    display: block;
+    position: unset;
+}
+
+.email-name, .textarea-button {
+    width: 96%;
+    margin: 0 auto;
 }
 
 
+
+}
 
 
 
@@ -115,6 +176,9 @@ transform: translate(-8px, 0);
     padding-bottom: 35px;
 }
 
+.ul-container, .ul-container-blog, .ul-container-blog {
+    width: 90%;
+}
 
 .circle{
     width: 15%;
@@ -126,20 +190,16 @@ transform: translate(-8px, 0);
 
 .logo-2{
     margin: 0 auto;
-    font-size: 6rem;
+   font-size: 5.3rem;
 }
 
 .logo-2-container{
     width: 50%;
 }
 
-.ul-container, .ul-container-blog {
-    width: 78%;
-}
 
 // main index 
 
-}
 
 .favorite-things{
     flex-direction: column;
@@ -188,7 +248,6 @@ margin-top: 60px;
     margin-right: auto;
 }
 
-
 // blog
 
 .img-logo-blog {
@@ -203,10 +262,10 @@ margin-top: 60px;
     width: 38%;
 }
 
-.container-barb, .container-daizy{
-    width: 60%;
-    transform: translate(-12px, 0);
-    }
+// .container-barb, .container-daizy{
+//     width: 60%;
+//     transform: translate(-12px, 0);
+//     }
 
 .email-name, .textarea-button{
     margin: 0 74px auto auto;    
@@ -215,14 +274,159 @@ margin-top: 60px;
 .img-logo-contact {
     height: 40vh;
 }
+}
 
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
+
+@media (max-width: 1010px) {
+
+.wrapper {
+    max-width: 900px;
+    width: 95%;
+}
+
+
+.ul-container, .ul-container-blog, .ul-container-blog {
+    width: 90%;
+}
+
+.circle{
+    width: 15%;
+}
+
+.circle-img{
+    width: 90%;
+}
+
+.logo-2{
+    margin: 0 auto;
+   font-size: 5.3rem;
+}
+
+.logo-2-container{
+    width: 50%;
+}
+
+
+
+.form-box-contact{
+    width: 100%;
+}
+
+.form-contact {
+    width: 450px;
+}
+
+.social-media-contact .social a .fab {
+    font-size: 1.3rem;
+}
+
+.form-and-social-midia {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.social-media-contact {
+    margin: 47px 20px auto 20px;
+}
+
+.bucket-container {
+    flex-direction: column-reverse;
+}
+
+.txt-buket-container-1 {
+    width: 100%;
+    text-align: center;
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img-bucket-container {
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.img-container-bucket {
+    background-color: #fdfdfd;
+    width: 95%;
+    transform: none;
+    margin: 0 auto;
+}
+
+.img-bucket {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bucket {
+    max-width: 100%;
+}
+
+}
+
+
+@media (max-width: 870px) {
 
 .wrapper{
     max-width: 770px;
     width: 95%;
+}
+
+.form-and-social-midia {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.social-media-contact {
+    text-align: center;
+}
+
+.form-contact {
+    width: 100%;
+}
+
+[type="email"] {
+    height: 70px;
+    width: 100%;
+    margin: -5px 5px 35px 0;
+}
+
+
+[type="text"] {
+    height: 70px;
+    width: 100%;
+    margin: 30px 5px 35px 0;
+}
+
+.email-mane-contact {
+    flex-direction: column;
+}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 860px) {
+
+.wrapper{
+    max-width: 770px;
+    width: 95%;
+}
+
+.circle {
+    transform: translate(102px, 0);
+}
+
+.logo-2 {
+    margin: 0 auto;
+    font-size: 5rem;
+}
+
+.logo-2-container {
+    width: 100%;
 }
 
 .logo {
@@ -243,11 +447,6 @@ margin-top: 60px;
 
 // contact
 
-[type="email"]{
-    height: 70px;
-    width: 100%;
-    margin: 5px 5px 35px 0;
-}
 
 [type="text"] {
     height: 70px;
@@ -255,10 +454,6 @@ margin-top: 60px;
     margin: 48px 5px 35px 0;
 }
 
-.social-media-contact{
-    width: 67%;
-    height: 215px;
-}
 
 .fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-instagram{
     margin-top: 25px;
@@ -272,27 +467,13 @@ margin-top: 60px;
     width: 100%;
 }
 
-
-
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 782px) {
 
 .wrapper {
     max-width: 490px;
@@ -303,6 +484,10 @@ margin-top: 60px;
 .logo-2{
     font-size: 4.3rem;
     margin-top: 23px;
+}
+
+.circle {
+    transform: translate(-8px, 0);
 }
 
 .logo {
@@ -323,6 +508,10 @@ position: relative;
 margin: 72px auto 0 auto;
 }
 
+.header-blog {
+    height: 38vh;
+}
+
 header {
     height: 242px;
     position: absolute;
@@ -333,63 +522,25 @@ header {
 }
 
 .who{
-    height: 610px;
+    margin-top: 175px;
 }
 
-
-.favorite-things{
-    margin-top: 183px;
+.txt-things-container {
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.img-things{
-    width: 100%;
-    position: absolute;
-    left: 0px;
+.img-things-container {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
 }
 
-.img-things-comntainer{
-    width: 470px;
-    left: -8px;
-    bottom: 128px;
-    z-index: -10;
+.journey {
+    height: auto;
 }
-
-.img-bucket-container{
-    width: 470px;
-    left: -8px;
-    bottom: 128px;
-    height: 70px;
-}
-
-.img-bucket{
-    text-align: center;
-    position: relative;
-    top: -171px;
-    left: 1px;
-    bottom: 70px;
-    width: 469px;
-}
-
-.txt-bucket p, .txt-bucket h2 {
-    margin: 27px auto;
-}
-
-.b-bucket {
-    margin-right: 0;
-}
-
-
-.txt-bucket {
-    text-align: center;
-}
-
-.txt-things-comntainer, .img-things-comntainer {
-    height: 452px;
-    text-align: center;
-    position: relative;
-    top: -118px;
-}
-
 
 
 
@@ -399,16 +550,7 @@ header {
 }
 
 .social-media-contact {
-    width: 71%;
-    height: 235px;
-}
-
-
-.social {
-    text-align: start;
-    font-size: 1.2rem;
-    position: relative;
-    top: -41px;
+    margin: 0 auto;
 }
 
 .img-logo-contact, .img-logo-blog{
@@ -416,7 +558,7 @@ header {
 }
 
 .about-willow {
-    margin: 390px 20PX 20px;
+    margin: 390px auto 20px;
 }
 
 .blog-title{
@@ -425,17 +567,18 @@ header {
 }
 
 .blog-title {
-    font-size: 3rem;
-    bottom: -23px;
+    font-size: 2.2rem;
+    bottom: -30px;
+    }
+
+.recent {
+    margin: 30px auto 20px;
+    width: 100%;
 }
 
 .img-journey{
     box-shadow: none;
     margin-bottom: 20px;
-}
-
-.journey {
-    height: 825px;
 }
 
 
@@ -458,10 +601,29 @@ header {
     font-size: 1rem;
 }
 
+.email-name, .textarea-button {
+    margin: 0 auto;
+}
 
+[type="text"] {
+    margin: 20px 5px 35px 0;
+}
+
+[type="email"] {
+    margin: 6px 5px 35px 0;
+}
+
+.container-barb, .container-daizy {
+    margin: 0 auto 27px;
+}
+
+.email-name {
+    display: flex;
+    flex-direction: column;
+}
 
 footer {
-    height: 51vh;
+    height: auto;
 }
 
 .photo-about p, .blog-contact p {
@@ -469,11 +631,82 @@ footer {
 }
 
 .container-footer{ 
-    
     flex-direction: column;
-height: 373px;
-align-content: center;
-align-items: center;
+    height: 373px;
+    align-content: center;
+    align-items: center;
+}
+
+.photo, .about, .blog, .contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 21px;
+}
+
+.photo-about, .blog-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact a, .blog-contact a, .about a, .photo-about a {
+    font-size: 1rem;
+}
+
+.photo-about, .blog-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.container-footer {
+    height: auto;
+}
+
+.img-gallery-1 {
+    display: none;
+}
+
+.container-footer {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+}
+
+@media (max-width: 497px) {
+
+.wrapper {
+    max-width: 400px;
+    width: 95%;
+
+}
+.logo-2 {
+    font-size: 3.8rem;
+}
+
+.circle {
+    width: 17%;
+}
+
+.logo-2-container {
+    transform: translate(-23px, 0);
+}
+
+.circle {
+    transform: translate(14px, 0);
+}
+
+.me {
+    display: none;
 }
 
 }

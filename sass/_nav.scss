@@ -7,7 +7,6 @@ $font-abril:  'Abril Fatface', cursive;
 $font-montserrat:'Montserrat', sans-serif;
 
 
-
 .ul-container, .ul-container-blog {
     display: flex;
     justify-content: space-around;
@@ -19,9 +18,9 @@ $font-montserrat:'Montserrat', sans-serif;
 }
 
 .ul-container-blog{
-    height: 10vh
+    height: 10vh;
 }
-;
+
 
 li, .ul-container-blog li {
     list-style: none;
