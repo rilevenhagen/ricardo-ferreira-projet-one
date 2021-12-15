@@ -489,8 +489,23 @@ aside {
     transform: translate(21px, 1px);
 }
 
-
 .hamburger {
+    display: block;
+}
+
+.hamburger-de-none {
+    display: none;
+}
+
+
+.hamburger2 {
+    display: none;
+
+}
+
+
+
+.hamburger-de-block {
     display: block;
 }
 
@@ -515,9 +530,21 @@ aside {
 
 
 nav {
+    ul{
+        .fa-minus-square {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    // display: block;
+}
+    }
+}
+
+
+
+nav {
     ul {
     .fa-bars {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     display: block;
     // justify-content: center;

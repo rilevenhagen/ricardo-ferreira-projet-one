@@ -403,7 +403,7 @@ header {
   padding-bottom: 17px;
 }
 
-.menu-Li, .hamburger {
+.menu-Li, .hamburger, .fa-plane-alt {
   display: none;
   cursor: pointer;
   background: none;
@@ -434,11 +434,11 @@ li a:hover, .ul-container-blog li a:hover {
   color: #e4a436;
 }
 
-.fa-bars:hover {
+.fa-bars:hover, .fa-bars:focus {
   color: #e4a436;
 }
 
-.fa-bars {
+.fa-minus-square, .fa-minus-square {
   transition: 0.5s ease;
 }
 
@@ -1292,6 +1292,18 @@ i {
     display: block;
   }
 
+  .hamburger-de-none {
+    display: none;
+  }
+
+  .hamburger2 {
+    display: none;
+  }
+
+  .hamburger-de-block {
+    display: block;
+  }
+
   .menu-big-screen {
     display: none;
   }
@@ -1311,8 +1323,13 @@ i {
     z-index: 50;
   }
 
+  nav ul .fa-minus-square {
+    color: white;
+    font-size: 2rem;
+  }
+
   nav ul .fa-bars {
-    color: black;
+    color: white;
     font-size: 2rem;
     display: block;
   }
