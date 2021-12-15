@@ -469,6 +469,63 @@ aside {
 
 }
 
+.menu-big-screen, h1 {
+    display: none;
+}
+
+
+.menu-showup{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    color: white;
+    line-height: 28px;
+    border-radius: 14% 14% 35% 35%;
+    position: absolute;
+    top: 37px;
+    right: -20px;
+    width: 138px;
+    height: 150px;
+    transform: translate(21px, 1px);
+}
+
+
+.hamburger {
+    display: block;
+}
+
+.menu-big-screen {
+    display: none;
+}
+
+.navbar{
+    color: $color-yellow;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 85px;
+    max-height: 115px;
+    position: relative;
+    align-items: self-end;
+    margin: 0 0 auto;
+    transform: translate(64px, 14px);
+    z-index: 50;
+}
+
+
+nav {
+    ul {
+    .fa-bars {
+    color: black;
+    font-size: 2rem;
+    display: block;
+    // justify-content: center;
+} 
+    }
+}
+
+
 .logo-2{
     font-size: 4.3rem;
     margin-top: 23px;
@@ -483,21 +540,22 @@ aside {
     top: 18%;
 }
 
-h1{
-    margin-top: 3px;
-    top: -40px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+// h1{
+//     margin-top: 3px;
+//     top: -40px;
+//     position: absolute;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+// }
 
 .ul-container, .ul-container-blog {
     position: relative;
-    margin: 72px auto 0 auto;
+    // margin: 72px auto 0 auto;
+    margin: 0 auto;
 }
 
 .header-blog {
-    height: 38vh;
+    height: 20vh;
 }
 
 header {
@@ -534,7 +592,7 @@ header {
 
 // contact and blog
 .form-contact {
-    margin: 350px auto auto;
+    margin: 260px auto auto;
 }
 
 .social-media-contact {
@@ -543,10 +601,11 @@ header {
 
 .img-logo-contact, .img-logo-blog{
     height: 21vh;
+    margin-top: -41px;
 }
 
 .about-willow {
-    margin: 390px auto 20px;
+    margin: 280px auto 20px;
 }
 
 .blog-title{
