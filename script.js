@@ -1,4 +1,6 @@
 
+// A dropdown menu on the top of the page for small screen 
+
 const dorpDownMenu = {};
 
 dorpDownMenu.init = () => {

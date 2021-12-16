@@ -1312,6 +1312,10 @@ i {
     display: none;
   }
 
+  .hamburger-de-block2 {
+    display: block;
+  }
+
   .navbar {
     color: #e4a436;
     font-size: 1rem;
