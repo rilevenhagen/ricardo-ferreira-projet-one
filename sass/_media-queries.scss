@@ -500,9 +500,7 @@ aside {
 
 .hamburger2 {
     display: none;
-
 }
-
 
 
 .hamburger-de-block {
@@ -511,6 +509,10 @@ aside {
 
 .menu-big-screen {
     display: none;
+}
+
+.hamburger-de-block2 {
+    display: block;
 }
 
 .navbar{
@@ -567,13 +569,6 @@ nav {
     top: 18%;
 }
 
-// h1{
-//     margin-top: 3px;
-//     top: -40px;
-//     position: absolute;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-// }
 
 .ul-container, .ul-container-blog {
     position: relative;
