@@ -21,15 +21,28 @@
 
         <div class="wrapper nav">
             <nav>
-                <ul class="ul-container-blog">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="blog.html#about">About</a></li>
+                <ul class="ul-container">
+                    <li><a class="menu-big-screen" href="index.html">Home</a></li>
+                    <li><a class="menu-big-screen" href="blog.html#about">About</a></li>
                     <li>
                         <h1>WILLOW</h1>
                     </li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="menu-big-screen" href="blog.html">Blog</a></li>
+                    <li><a class="menu-big-screen" href="contact.html">Contact</a></li>
+                    <!-- drop down menu -->
+                    <div class="navbar">
+                        <div class="hamburger">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div class="menu-Li">
+                            <li><a class="nav-Link" href="index.html">Home</a></li>
+                            <li><a class="nav-Link" href="blog.html#about">About</a></li>
+                            <li><a class="nav-Link" href="blog.html">Blog</a></li>
+                            <li><a class="nav-Link" href="contact.html">Contact</a></li>
+                        </div>
+                    </div>
                 </ul>
+
             </nav>
         </div>
         <section class="img-logo-contact">
@@ -65,13 +78,13 @@
             <form class="wrapper form-contact" action="https://formsubmit.co/ricolcf@gmail.com" method="POST">
 
                 <div class="email-mane-contact">
-                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="text" name="name" placeholder="Name" required><label for="name"></label>
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="https://ricardolevenhagen.com/">
-                    <input type="email" name="email" placeholder="Email addres" required>
+                    <input type="email" name="email" placeholder="Email address" required>
                 </div>
                 <div class="textarea-buttom">
-                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Coment"></textarea>
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment"></textarea><label for="coment"></label>
                     <button class="form-b" type="submit">Send</button>
                 </div>
 
@@ -83,9 +96,11 @@
     <!-------------Footer---------------->
 
     <footer class="footer-contact">
-        <dir class="p-continer-footer">
+        <div class="p-continer-footer">
             <p class="p-footer">Copyright © 2018 HackerYou</p>
-        </dir>
+        </div>
+
+        <script src="script.js"></script>
 </body>
 
 </html>

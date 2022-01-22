@@ -6,6 +6,12 @@ $color-yellow:#e4a436;
 $font-abril:  'Abril Fatface', cursive;
 $font-montserrat:'Montserrat', sans-serif;
 
+.menu-Li, .hamburger, .fa-plane-alt {
+    display: none;
+    cursor:  pointer;
+    background: none;
+}
+
 
 .ul-container, .ul-container-blog {
     display: flex;
@@ -27,9 +33,22 @@ li, .ul-container-blog li {
     
     a{
         color: $color-white-shade;
+        transition: 0.5s ease;
     }
 
     a:hover {
         color: $color-yellow;
     }
 }
+
+
+.fa-bars:hover, .fa-bars:focus{
+    color: $color-yellow;
+}
+
+.fa-minus-square, .fa-minus-square{
+    transition: 0.5s ease;
+}
+
+
+

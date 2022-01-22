@@ -245,6 +245,10 @@ html {
   padding: 0;
 }
 
+.hamburger2 {
+  display: none;
+}
+
 header {
   background-color: #345231;
   width: 100%;
@@ -403,6 +407,12 @@ header {
   padding-bottom: 17px;
 }
 
+.menu-Li, .hamburger, .fa-plane-alt {
+  display: none;
+  cursor: pointer;
+  background: none;
+}
+
 .ul-container, .ul-container-blog {
   display: flex;
   justify-content: space-around;
@@ -422,9 +432,18 @@ li, .ul-container-blog li {
 }
 li a, .ul-container-blog li a {
   color: #f6f6f6;
+  transition: 0.5s ease;
 }
 li a:hover, .ul-container-blog li a:hover {
   color: #e4a436;
+}
+
+.fa-bars:hover, .fa-bars:focus {
+  color: #e4a436;
+}
+
+.fa-minus-square, .fa-minus-square {
+  transition: 0.5s ease;
 }
 
 html {
@@ -471,7 +490,7 @@ i {
   text-align: center;
 }
 
-.fas {
+.fa-phone, .fa-user-alt, .fa-desktop, .fa-image {
   color: #1f1f1f;
   background: #e4a436;
   width: 45px;
@@ -1254,6 +1273,75 @@ i {
     width: 95%;
   }
 
+  .menu-big-screen, h1 {
+    display: none;
+  }
+
+  .menu-showup {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    color: white;
+    line-height: 28px;
+    border-radius: 14% 14% 35% 35%;
+    position: absolute;
+    top: 37px;
+    right: -20px;
+    width: 138px;
+    height: 150px;
+    transform: translate(21px, 1px);
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger-de-none {
+    display: none;
+  }
+
+  .hamburger2 {
+    display: none;
+  }
+
+  .hamburger-de-block {
+    display: block;
+  }
+
+  .menu-big-screen {
+    display: none;
+  }
+
+  .hamburger-de-block2 {
+    display: block;
+  }
+
+  .navbar {
+    color: #e4a436;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 85px;
+    max-height: 115px;
+    position: relative;
+    align-items: self-end;
+    margin: 0 0 auto;
+    transform: translate(64px, 14px);
+    z-index: 50;
+  }
+
+  nav ul .fa-minus-square {
+    color: white;
+    font-size: 2rem;
+  }
+
+  nav ul .fa-bars {
+    color: white;
+    font-size: 2rem;
+    display: block;
+  }
+
   .logo-2 {
     font-size: 4.3rem;
     margin-top: 23px;
@@ -1268,21 +1356,13 @@ i {
     top: 18%;
   }
 
-  h1 {
-    margin-top: 3px;
-    top: -40px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
   .ul-container, .ul-container-blog {
     position: relative;
-    margin: 72px auto 0 auto;
+    margin: 0 auto;
   }
 
   .header-blog {
-    height: 38vh;
+    height: 20vh;
   }
 
   header {
@@ -1316,7 +1396,7 @@ i {
   }
 
   .form-contact {
-    margin: 350px auto auto;
+    margin: 260px auto auto;
   }
 
   .social-media-contact {
@@ -1325,10 +1405,11 @@ i {
 
   .img-logo-contact, .img-logo-blog {
     height: 21vh;
+    margin-top: -41px;
   }
 
   .about-willow {
-    margin: 390px auto 20px;
+    margin: 280px auto 20px;
   }
 
   .blog-title {
